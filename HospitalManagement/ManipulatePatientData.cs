@@ -24,10 +24,10 @@ namespace HospitalManagement
 
             {
                 double value when value >= 36.0   &&  value is <= 38.0 => 0.00,
-                double value when value >  38.0   &&  value is <= 39.0 => 0.05,  //5% of dying
-                double value when value >  39.0   &&  value is <= 40.0 => 0.10,  //10% of dying
-                double value when value >  40.0   &&  value is <= 41.0 => 0.15,  //15% of dying
-                double value when value >  41.0   &&  value is <= 42.0 => 0.20,   //20% of dying
+                double value when value >  38.0   &&  value is <= 39.0 => 0.05,  
+                double value when value >  39.0   &&  value is <= 40.0 => 0.10,  
+                double value when value >  40.0   &&  value is <= 41.0 => 0.15,  
+                double value when value >  41.0   &&  value is <= 42.0 => 0.20,  
                 double value when value >  42.0   &&  value is <= 43.0 => 0.25,
                 double value when value >  43.0   &&  value is <= 44.0 => 0.30,
                 double value when value >  44.0   &&  value is <= 45.0 => 0.35,
