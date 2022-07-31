@@ -67,7 +67,7 @@ namespace HospitalManagement
             {
                 double value when value >= 0.0 && value is <= 15.0 => "Mild Risk",
                 double value when value > 15.0 && value is <= 30.0 => "See Doctor",  
-                double value when value > 30.0 && value is <= 45.0 => "Critical Condition",  
+                double value when value > 30.0 && value is <= 45.0 => "Critical Condition",
                 double value when value > 45.0 && value is <= 60.0 => "Very Critical",  
                 double value when value > 60.0 && value is <= 75.0 => "Critically Acute",   
                 double value when value > 75.0 && value is <= 90.0 => "Red Alert",

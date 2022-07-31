@@ -7,6 +7,7 @@ namespace HospitalUI
     public partial class HospitalReg : Form
     {
         public IList<IPatient> patientsData { get; set; }
+        //public IList<IPatient> staffData { get; set; }
 
         public HospitalReg()
         {
@@ -98,6 +99,11 @@ namespace HospitalUI
             HeartBit.Text = "";
             Age.Text = "";
             BodyTemperature.Text = "";
+        }
+
+        private void HospitalReg_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

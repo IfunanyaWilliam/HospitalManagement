@@ -44,10 +44,5 @@ namespace HospitalUI
         {
                         this.Close();
         }
-
-        private void DisplayPatient_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
