@@ -39,6 +39,20 @@ namespace HospitalUI
                     HeartBitRate         = 88,
                     MortalityRiskPercent = 42,
                     RiskDescription     = "Critical Condition"
+                },
+
+                new Patient()
+                {
+                    FirstName            = "Bola",
+                    LastName             = "Adesola",
+                    Age                  = 45,
+                    BodyTemperature      = 30,
+                    HasFever             = true,
+                    HasDiabetes          = true,
+                    Gender               = Gender.Female.ToString(),
+                    HeartBitRate         = 95,
+                    MortalityRiskPercent = 42,
+                    RiskDescription     = "Critical Condition"
                 }
 
             };
